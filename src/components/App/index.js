@@ -3,12 +3,12 @@ import AddItem from '../AddItem';
 import List from '../List';
 
 export default class App extends Component {
-  state = {
-    items: this.props.items
-  };
-
   static propTypes = {
     items: PropTypes.array.isRequired
+  };
+
+  state = {
+    items: this.props.items
   };
 
   addItem = (item) => {

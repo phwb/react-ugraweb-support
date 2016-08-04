@@ -36,6 +36,15 @@ const items = [
   }
 ];
 
+// пример store
+const item = {};
+const state = {
+  tasks: {
+    items: [ item, item, item ]
+  },
+  comments: {}
+};
+
 render(
   <App
     items={ items }
